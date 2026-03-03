@@ -1,0 +1,19 @@
+.uploadButton {
+  background-color: #800020;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.uploadButton:hover {
+  background-color: #A92347; /* Un tono más claro para el hover */
+}
+
+.imagePreview {
+  margin-top: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}

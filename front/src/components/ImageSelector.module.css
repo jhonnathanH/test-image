@@ -1,0 +1,13 @@
+.imageSelectorButton {
+  background-color: #800020;
+  color: white; /* Ajustado para mejor contraste */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.imageSelectorButton:hover {
+  background-color: #A92347; /* Un tono más claro para el hover */
+}

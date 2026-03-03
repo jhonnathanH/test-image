@@ -98,33 +98,45 @@ const resetImage = () => {
 }
 
 .btn-upload {
-  background-color: #42b883;
+  background-color: #4682B4; /* Azul Rey */
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-upload:hover {
+  opacity: 0.8;
+}
+
+.btn-send {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn-send:hover {
+  opacity: 0.8;
 }
 
 .btn-remove {
-  background-color: #ff4d4d;
+  background-color: #f44336;
   color: white;
+  padding: 10px 20px;
   border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  min-width: 80px;
-  max-width: 80px;
+  font-size: 16px;
 }
-.btn-send {
-  background-color: #27da5d;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-  min-width: 80px;
-  max-width: 80px;
+
+.btn-remove:hover {
+  opacity: 0.8;
 }
 </style>

@@ -98,33 +98,48 @@ const resetImage = () => {
 }
 
 .btn-upload {
-  background-color: #42b883;
+  background-color: #B8860B; /* Dark Goldenrod */
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+  background-color: #946b09; /* Darker shade for hover */
+}
+
+.btn-send {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-send:hover {
+  background-color: #367c39;
 }
 
 .btn-remove {
-  background-color: #ff4d4d;
+  background-color: #f44336;
   color: white;
+  padding: 10px 20px;
   border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  min-width: 80px;
-  max-width: 80px;
+  transition: background-color 0.3s ease;
 }
-.btn-send {
-  background-color: #27da5d;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-  min-width: 80px;
-  max-width: 80px;
+
+.btn-remove:hover {
+  background-color: #bb2e24;
+}
+
+.upload-controls {
+  padding: 20px;
 }
 </style>

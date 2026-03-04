@@ -13,8 +13,8 @@
         <img :src="previewUrl" alt="Vista previa" />
       </div>
 
-      <button @click="processImage" class="btn-send">Enviar</button>
       <button @click="resetImage" class="btn-remove">Eliminar</button>
+      <button @click="processImage" class="btn-send">Enviar</button>
     </div>
 
     <div v-else class="upload-controls">
@@ -98,33 +98,5 @@ const resetImage = () => {
 }
 
 .btn-upload {
-  background-color: #42b883;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-remove {
-  background-color: #ff4d4d;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  min-width: 80px;
-  max-width: 80px;
-}
-.btn-send {
-  background-color: #27da5d;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-  min-width: 80px;
-  max-width: 80px;
-}
-</style>
+  background
+... (truncated)
